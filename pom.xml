@@ -27,6 +27,7 @@
         <project.build.targetEncoding>UTF-8</project.build.targetEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <mapstruct-version>1.6.3</mapstruct-version>
+        <project.scm.id>github</project.scm.id>
     </properties>
 
     <dependencyManagement>
@@ -65,6 +66,11 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <scm>
+        <developerConnection>scm:git:https://github.com/NinjaCoderM/learn-maven-multiProj-nexus-releaseplugin.git</developerConnection>
+        <url>https://github.com/NinjaCoderM/learn-maven-multiProj-nexus-releaseplugin</url>
+    </scm>
 
     <build>
         <plugins>
@@ -111,7 +117,11 @@
                     </execution>
                 </executions>
             </plugin>
-
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.1.1</version>
+            </plugin>
         </plugins>
     </build>
 

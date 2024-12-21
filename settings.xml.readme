@@ -11,9 +11,14 @@ Copy von settings.xml unter .m2
             <password>{zTNSeRB8wNAHkG96w2BeJEYcGJnB/ZH7/ElWXD0AmdA=}</password>
         </server>
         <server>
-            <id> maven-releases</id>
+            <id>maven-releases</id>
             <username>mrtn</username>
             <password>{zTNSeRB8wNAHkG96w2BeJEYcGJnB/ZH7/ElWXD0AmdA=}</password>
+        </server>
+        <server>
+            <id>github</id>
+            <username>NinjaCoderM</username>
+            <password>{mvobWT+JDgIHD//fcoGCt79empefAKWv8tpplozP540=}</password>
         </server>
     </servers>
 </settings>
