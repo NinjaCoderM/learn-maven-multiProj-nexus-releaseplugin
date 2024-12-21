@@ -5,7 +5,7 @@
         <groupId>at.codecrafters</groupId>
         <artifactId>mb2g-multiProj-parent-maven</artifactId>
 <!--        <version>${revision}</version>-->
-        <version>1.3-SNAPSHOT</version>
+        <version>1.4-SNAPSHOT</version>
     </parent>
 
     <artifactId>learn-mapStruct</artifactId>
