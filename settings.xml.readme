@@ -18,7 +18,7 @@ Copy von settings.xml unter .m2
         <server>
             <id>github</id>
             <username>NinjaCoderM</username>
-            <password>{mvobWT+JDgIHD//fcoGCt79empefAKWv8tpplozP540=}</password>
+            <password>ghp_zdSvh...bTmx1DfgKo</password> <!-- PAT aus github.com rechts oben Icon klichen / Settings / Developer Settings (links unten) / Personl Access token mit repo + workflow + write:packages -->
         </server>
     </servers>
 </settings>
