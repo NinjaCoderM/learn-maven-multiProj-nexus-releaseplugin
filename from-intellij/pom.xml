@@ -5,7 +5,7 @@
         <groupId>at.codecrafters</groupId>
         <artifactId>mb2g-multiProj-parent-maven</artifactId>
 <!--        <version>${revision}</version>-->
-        <version>1.2-SNAPSHOT</version>
+        <version>1.2</version>
     </parent>
 
     <artifactId>from-intellij</artifactId>

@@ -4,7 +4,7 @@
 
     <groupId>at.codecrafters</groupId>
     <artifactId>mb2g-multiProj-parent-maven</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
 <!--    <version>${revision}</version>-->
 
     <packaging>pom</packaging>
@@ -35,19 +35,19 @@
                 <groupId>at.codecrafters</groupId>
                 <artifactId>jpa-entities</artifactId>
 <!--                <version>${project.version}</version>-->
-                <version>1.2-SNAPSHOT</version>
+                <version>1.2</version>
             </dependency>
             <dependency>
                 <groupId>at.codecrafters</groupId>
                 <artifactId>web-api</artifactId>
 <!--                <version>${project.version}</version>-->
-                <version>1.2-SNAPSHOT</version>
+                <version>1.2</version>
             </dependency>
             <dependency>
                 <groupId>at.codecrafters</groupId>
                 <artifactId>learn-mapStruct</artifactId>
 <!--                <version>${project.version}</version>-->
-                <version>1.2-SNAPSHOT</version>
+                <version>1.2</version>
             </dependency>
             <dependency>
                 <groupId>org.mapstruct</groupId>
