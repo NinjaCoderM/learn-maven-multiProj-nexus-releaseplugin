@@ -1,0 +1,32 @@
+Befehle
+mvn clean release:prepare
+mvn release:perform
+mvn release:rollback
+
+--------------
+
+Tipp für Multi-Module-Projekte mit dem Maven Release Plugin
+
+Ich bin besonders an Multi-Module-Projekten interessiert. Daher habe ich das Beispiel aus
+Abschnitt 10: Multi-Module-Projekte mit dem Maven Release Plugin erweitert. Zunächst hatte
+ich das Problem, dass kein Deployment im nexus-release-Repository gefunden wurde. Bei weiteren
+Versuchen erhielt ich Fehlermeldungen von GitHub, die besagten „tag already exists“.
+
+Lösung:
+Die Verwendung von <revision> (und Verweisen darauf wie ${project.version} und ${revision}) mit
+dem Maven Release Plugin ist nicht möglich. Das Maven Release Plugin übernimmt diese Aufgabe jedoch
+selbst, sodass die Verwendung von <revision> nicht erforderlich ist.
+
+-----------------------
+
+Tip for Multi-Module Projects with Maven Release Plugin
+
+I am particularly interested in multi-module projects. Therefore, I extended the example
+from Section 10: Multi-Module Projects with Maven Release Plugin. Initially, I encountered
+the issue that no deployment was found in the nexus-release repository. On subsequent attempts,
+I received error messages from GitHub stating "tag already exists."
+
+Solution:
+Using <revision> (and references to it like ${project.version} and ${revision})
+with the Maven Release Plugin is not possible. However, the Maven Release Plugin
+manages this task itself, making it unnecessary to use <revision>.
