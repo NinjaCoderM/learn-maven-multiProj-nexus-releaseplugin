@@ -1,0 +1,19 @@
+Copy von settings.xml unter .m2
+
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <servers>
+        <server>
+            <id>nexus-snapshots</id>
+            <username>mrtn</username>
+            <password>{zTNSeRB8wNAHkG96w2BeJEYcGJnB/ZH7/ElWXD0AmdA=}</password>
+        </server>
+        <server>
+            <id> maven-releases</id>
+            <username>mrtn</username>
+            <password>{zTNSeRB8wNAHkG96w2BeJEYcGJnB/ZH7/ElWXD0AmdA=}</password>
+        </server>
+    </servers>
+</settings>
