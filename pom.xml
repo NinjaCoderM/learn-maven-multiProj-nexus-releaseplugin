@@ -68,7 +68,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/NinjaCoderM/learn-maven-multiProj-nexus-releaseplugin.git</developerConnection>
         <url>https://github.com/NinjaCoderM/learn-maven-multiProj-nexus-releaseplugin</url>
-        <tag>mb2g-multiProj-parent-maven-1</tag>
+        <tag>mb2g-multiProj-parent-maven-1.1</tag>
     </scm>
 
     <build>
